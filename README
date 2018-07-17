@@ -2,6 +2,11 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+My settings
+-----------
+- includes scrollback patches
+- dracula colors
+- Fantasque as font
 
 Requirements
 ------------
