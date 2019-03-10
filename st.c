@@ -2395,7 +2395,6 @@ tputc(Rune u)
 			goto check_control_code;
 		}
 
-
 		if (IS_SET(MODE_SIXEL)) {
 			/* TODO: implement sixel mode */
 			return;
@@ -2664,6 +2663,7 @@ draw(void)
 	}
 	term.ocx = cx, term.ocy = term.c.y;
 	xfinishdraw();
+	xximspot(term.ocx, term.ocy);
 }
 
 void
